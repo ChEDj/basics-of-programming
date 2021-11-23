@@ -7,7 +7,7 @@ while not x < 1 and x > -1:
 e = 10**(-6)
 n = 0
 S = 0
-x_n = ((-1)**(n - 1)) * ((2 * n - 1) * x**n) / (math.factorial(2 * n)) 
+x_n = 1
 
 while not (abs(x_n)) < e:  
     x_n = (-1)**(n - 1) * (2 * n - 1) * x**n / (math.factorial(2 * n))
